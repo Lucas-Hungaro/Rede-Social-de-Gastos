@@ -1,0 +1,16 @@
+.main {
+  position: absolute;
+  background-color: var(--white);
+
+  width: 87%;
+  height:97%;
+
+  top: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+
+  border-radius: var(--border-radius-default);
+  box-shadow: var(--box-shadow);
+
+  color: white;
+}

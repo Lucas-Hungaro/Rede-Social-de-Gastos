@@ -1,1 +1,0 @@
-# Rede-Social-de-Gastos
