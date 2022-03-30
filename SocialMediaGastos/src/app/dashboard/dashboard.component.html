@@ -1,2 +1,22 @@
 <div class="main">
+  <div class="content">
+
+    <div class="header">
+      <h1>{{paginaAtual}}</h1>
+    </div>
+
+    <div class="filtros">
+      <p class="filtrarPor"> Filtrar por:</p>
+      <div class="fill">Tempo <mat-icon>keyboard_arrow_down</mat-icon></div>
+      <div class="fill">Valor <mat-icon>keyboard_arrow_down</mat-icon></div>
+      <div class="fill">Tipo <mat-icon>keyboard_arrow_down</mat-icon></div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+  </div>
+
+  <div class="sidebar">
+    <app-sidebar></app-sidebar>
+  </div>
 </div>

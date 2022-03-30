@@ -7,12 +7,16 @@ import { NavBarComponent } from './navbar/navbar.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    DashboardComponent
+    DashboardComponent,
+    SidebarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

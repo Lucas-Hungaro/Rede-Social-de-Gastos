@@ -3,10 +3,12 @@
 :root {
   --background-color: #5955b3;
   --white: rgb(255, 255, 255);
+  --sidebar-color: #f9f8fd;
 
 
 
   --border-radius-default: 2rem;
+  --border-radius-sidebar: 0 2rem 2rem 0;
   --box-shadow: 0 0 .2em rgb(255, 255, 255);
 }
 

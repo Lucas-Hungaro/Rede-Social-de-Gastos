@@ -1,0 +1,9 @@
+.content {
+  position: absolute;
+  background-color: brown;
+  width: 25%;
+  height: 100%;
+  right: 0;
+  border-radius: var(--border-radius-sidebar);
+  background-color: var(--sidebar-color);
+}

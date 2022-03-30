@@ -10,7 +10,74 @@
   right: 1rem;
 
   border-radius: var(--border-radius-default);
-  box-shadow: var(--box-shadow);
 
   color: white;
+  display: flex;
+}
+
+.header{
+
+  color: var(--background-color);
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.header h1{
+  margin-left: 3rem;
+  font-size: 30pt;
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+
+.filtros{
+  display: flex;
+  margin-top: 2rem;
+  color: black;
+  width: 75%;
+
+}
+
+.fill{
+  display: flex;
+  align-items: center;
+  margin-left:3rem ;
+  margin-right: 3rem;
+  color: rgb(129, 129, 129);
+  background-color: var(--sidebar-color);
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-default);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+}
+
+.fill mat-icon{
+  color: black;
+}
+
+.filtrarPor{
+
+  display: flex;
+  align-items: center;
+  margin-left:3rem ;
+  margin-right: 3rem;
+  color: rgb(129, 129, 129);
+  background-color: var(--sidebar-color);
+
+  border-radius: var(--border-radius-default);
+  font-family: 'poppins', sans-serif;
+  font-weight: 600;
+
+}
+
+p{
+  color: black;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }

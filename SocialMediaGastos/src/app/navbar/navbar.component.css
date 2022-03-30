@@ -53,6 +53,7 @@ small{
 aside{
   height: 100%;
   width: 15rem;
+  min-width: 15rem;
 }
 
 aside .top{

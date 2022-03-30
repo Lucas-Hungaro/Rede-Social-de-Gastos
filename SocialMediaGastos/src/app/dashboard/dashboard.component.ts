@@ -9,7 +9,11 @@ export class DashboardComponent implements OnInit {
 
   constructor() { }
 
+  paginaAtual : any;
+
   ngOnInit(): void {
+
+    this.paginaAtual = "Dashboard";
   }
 
 }
